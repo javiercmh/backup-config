@@ -1,0 +1,127 @@
+Quick access bar
+	Google Calendar
+	WhatsApp
+	Phone
+	Spotify
+	Google Chrome
+
+First Page
+	Cameras
+		Normal
+		Open Camera
+
+	Digital wellbeing
+
+	File Manager
+
+	Mobility
+		Google Maps
+		Uber
+		Paradero
+		Metro (Chrome)
+		Cabify
+		myVRN
+
+	Tools
+		Office Lens
+		Google Lens
+		Authenticator
+		Sky Map
+		WiFiAnalyzer
+		Twisty Timer
+		gStrings
+		Pyonic Python
+
+	Toggl
+
+	Google Photos
+
+	Mi Calculator
+
+	Settings
+
+	Clock
+
+	Languages
+		Google Translate
+		English Wiktionary
+		German Wiktionary
+		Spanish Wiktionary
+		Linguee
+		Google Wörterbuch
+		Medium
+		Forvo Travel
+		Slow Italian
+		Busuu
+		
+	Email
+		Gmail
+		Outlook
+		Microsoft Teams
+		Planner
+		Slack
+		
+	Finance
+		Fintonic
+		Banco Chile
+		Mi pass
+		Santander
+		Banco BICE
+		Authenticator
+		Entel
+		Google Pay
+		Cargo Bip! Chrome
+		iRISCO
+		Postident
+		LastPass
+		Isapre Colmena
+		Reembolso Sura
+		
+	Google Drive
+
+	Productivity
+		Google Keep
+		Trello
+		
+	Media
+		Youtube Vanced
+		Mi Remote
+		Google Files
+		Twitch
+		Netflix
+		Google Podcasts
+		Quicklyric
+		BOOM (UE)
+		FM Radio
+		Onleihe
+		Old School Runescape
+		
+	Social
+		Instagram
+		FB Messenger
+		Telegram
+		Facebook
+		Discord
+		Strava
+		Garmin Connect
+		InSwipe
+		Zoom
+		
+	Play Store
+	
+Second page
+	Screen recorder
+	edx
+	Despegar
+
+
+Covid monitor
+	Covid-19 (Chrome)
+	Countries
+	ChileGermany
+	New Zealand
+	Norway
+	Spain
+	Sweden
+	Switzerland
+	Cuarentenas RM
