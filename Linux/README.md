@@ -14,11 +14,10 @@ eyJoaXN0b3J5IjpbNDY0NTg3OTNdfQ==
 
 ## Spotify
 
-Place `spotify_control` in `/home/javier/.local/bin`. Then create custom shortcuts for the following commands
+0. Copy `spotify_control` to /opt/
+1. `sudo chmod +x spotify_control`
+2. Create custom shortcuts for:
 
-```
-~/.local/bin/spotify_control playpause
-~/.local/bin/spotify_control next
-~/.local/bin/spotify_control previous
-```
-
+    - /opt/spotify_control previous 	--> Super + ,
+    - /opt/spotify_control next			--> Super + .
+    - /opt/spotify_control playpause	--> Super + /
