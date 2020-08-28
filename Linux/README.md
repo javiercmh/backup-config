@@ -11,8 +11,11 @@ sudo update-grub
 
 ## Anaconda
 
-`conda env create -f datasci.yml`
-`conda env create -f django.yml`
+    $ conda env create -f datasci.yml
+
+To export an environment run the following:
+
+    $ conda env export -n {name} > {name}.yml
 
 ## VSCode
 
