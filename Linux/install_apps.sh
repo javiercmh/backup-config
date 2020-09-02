@@ -1,21 +1,16 @@
 #!/bin/bash
 
 # common
-apt install -y gdebi-core wget gnome-tweaks curl
+apt install -y gdebi-core wget gnome-tweaks curl vim
 
 # archive utilities
 apt install rar unrar
-
-# timeshift
-add-apt-repository -y ppa:teejee2008/ppa
-apt update
-apt -y install timeshift
 
 # atom
 wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | apt-key add -
 sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
 apt update
-apt install -y atom 
+apt install -y atom
 
 # discord
 wget -O ~/discord.deb "https://discordapp.com/api/download?platform=linux&format=deb"
@@ -24,12 +19,20 @@ yes | gdebi ~/discord.deb
 # libreoffice
 apt install -y libreoffice-gnome libreoffice
 
+# runelite
+snap install runelite
+
 # spotify
-curl -sS https://download.spotify.com/debian/pubkey.gpg | apt-key add - 
+curl -sS https://download.spotify.com/debian/pubkey.gpg | apt-key add -
 echo "deb http://repository.spotify.com stable non-free" | tee /etc/apt/sources.list.d/spotify.list
 apt update && apt install spotify-client
 cp spotify_control /opt/
 chmod +x /opt/spotify_control
+
+# timeshift
+add-apt-repository -y ppa:teejee2008/ppa
+apt update
+apt -y install timeshift
 
 # vscode
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
@@ -40,6 +43,7 @@ apt install apt-transport-https
 apt update
 apt install code
 cp ../vscode/*.json /home/javier/.config/Code/User/
+
 
 ## work
 
@@ -56,6 +60,7 @@ apt install -y nodejs npm
 # yarn
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+apt update && apt install -y yarn
 
 ## clean up
 rm ~/*.deb
