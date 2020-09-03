@@ -16,6 +16,9 @@ apt install -y atom
 wget -O ~/discord.deb "https://discordapp.com/api/download?platform=linux&format=deb"
 yes | gdebi ~/discord.deb
 
+# facebook messenger
+snap install messengerport
+
 # libreoffice
 apt install -y libreoffice-gnome libreoffice
 
@@ -28,6 +31,9 @@ echo "deb http://repository.spotify.com stable non-free" | tee /etc/apt/sources.
 apt update && apt install spotify-client
 cp spotify_control /opt/
 chmod +x /opt/spotify_control
+
+# telegram
+snap install telegram-desktop
 
 # timeshift
 add-apt-repository -y ppa:teejee2008/ppa
@@ -43,6 +49,9 @@ apt install apt-transport-https
 apt update
 apt install code
 cp ../vscode/*.json /home/javier/.config/Code/User/
+
+# whatsapp
+snap install walc
 
 
 ## work
