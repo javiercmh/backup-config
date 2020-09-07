@@ -56,6 +56,12 @@ This will make grub remember the last booted OS.
 
 Just run `grub_remember_choice.sh`.
 
+### Local time
+
+There's a difference in the way Windows and Linux handle timezones. If you have dual-boot, the easiest way to make both OS's show the same time, run the following command:
+
+`$ timedatectl set-local-rtc 1 --adjust-system-clock`
+
 ### Spotify shortcuts
 
 The last section will put the `spotify_control` script in a convenient location, so we only need to manually set the following keyboard shortcuts:
