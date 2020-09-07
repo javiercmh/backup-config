@@ -42,7 +42,6 @@ To export an environment run the following:
 
     $ conda env export -n {name} > {name}.yml
 
-
 ### Desktop background
 
 ```sh
@@ -61,6 +60,12 @@ Just run `grub_remember_choice.sh`.
 There's a difference in the way Windows and Linux handle timezones. If you have dual-boot, the easiest way to make both OS's show the same time, run the following command:
 
 `$ timedatectl set-local-rtc 1 --adjust-system-clock`
+
+### Path: add bin directory
+
+After installing `virtualenv` using pip3, it might not be usable right away until you add it to PATH:
+
+`$ echo export PATH="/home/javier/.local/bin:$PATH" >> /home/javier/.bashrc`
 
 ### Spotify shortcuts
 
