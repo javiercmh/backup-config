@@ -1,0 +1,23 @@
+{
+    "git.enableSmartCommit": true,
+    "python.dataScience.alwaysTrustNotebooks": true,
+    "files.autoSave": "onFocusChange",
+    "window.zoomLevel": 0,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "python.showStartPage": false,
+    "githubIssues.queries": [
+
+        {
+            "label": "My Issues",
+            "query": "default"
+        },
+        {
+            "label": "All Issues",
+            "query": "state:open repo:${owner}/${repository} sort:created-desc"
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+        }
+    ]
+}
