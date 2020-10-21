@@ -78,3 +78,17 @@ The last section will put the `spotify_control` script in a convenient location,
 ### SSH
 
 Run `ssh.sh`.
+
+### VPN TU Kaiserslautern
+
+1. First install some software:
+
+  `$ sudo apt install openconnect network-manager-openconnect-gnome`
+
+2. Then create new network connection using "Multi-protocol VPN client (openconnect)".
+
+3. Load the `T-Telesec-GlobalRoot-Class2.pem` certificate. A way to create a .pem from a .crt certificate is by running the following command:
+
+  `$ openssl x509 -inform der -in T-Telesec-GlobalRoot-Class2.crt -out T-Telesec-GlobalRoot-Class2.pem`
+
+For more information go to the [official website](https://www.rhrk.uni-kl.de/vpn/einrichtung/linux/#c9210).
