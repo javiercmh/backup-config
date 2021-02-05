@@ -29,7 +29,7 @@ snap install runelite
 curl -sS https://download.spotify.com/debian/pubkey.gpg | apt-key add -
 echo "deb http://repository.spotify.com stable non-free" | tee /etc/apt/sources.list.d/spotify.list
 apt update && apt install spotify-client
-cp spotify_control /opt/
+cp files/spotify_control /opt/
 chmod +x /opt/spotify_control
 
 # telegram
@@ -48,7 +48,7 @@ rm packages.microsoft.gpg
 apt install apt-transport-https
 apt update
 apt install code
-cp ../vscode/*.json /home/javier/.config/Code/User/
+cp files/vscode/*.json ~/.config/Code/User/
 
 # whatsapp
 snap install walc

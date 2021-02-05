@@ -12,6 +12,7 @@ Assumptions:
 chmod +x *.sh
 sudo su
 ```
+
 ## Installing apps
 
 Run `install_apps.sh`.
@@ -51,7 +52,7 @@ To export an environment run the following:
 ### Desktop background
 
 ```sh
-cp ../Nidarosdomen.jpg /home/javier/Pictures
+cp ../Nidarosdomen.jpg ~/Pictures
 gsettings set org.gnome.desktop.background picture-uri file:////home/javier/Pictures/Nidarosdomen.jpg
 ```
 
@@ -71,7 +72,7 @@ There's a difference in the way Windows and Linux handle timezones. If you have 
 
 After installing `virtualenv` using pip3, it might not be usable right away until you add it to PATH:
 
-`$ echo export PATH="/home/javier/.local/bin:$PATH" >> /home/javier/.bashrc`
+`$ echo export PATH="~/.local/bin:$PATH" >> ~/.bashrc`
 
 ### Spotify shortcuts
 
