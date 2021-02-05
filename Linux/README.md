@@ -1,5 +1,11 @@
 # Restoring configs
 
+This is a collection of bash scripts to set up my computer when I format it.
+
+Assumptions:
+- OS: Ubuntu latest
+- Username: javier
+
 ## Allow executing scripts
 
 ```sh
@@ -77,7 +83,7 @@ The last section will put the `spotify_control` script in a convenient location,
 
 ### SSH
 
-Run `ssh.sh`.
+Put password-protected `ssh.zip` with your .ssh folder inside and run `ssh.sh`.
 
 ### VPN TU Kaiserslautern
 
